@@ -13,7 +13,10 @@ while True:
         z = input('请再次输入这个整数：')
         if z == x:
             break
-    if x.isdigit():
+        else:
+            print('您的两次输入不一致。')
+    z = str(abs(int(x)))
+    if z.isdigit():
         break
     else:
         print('您需要输入一个整数。')

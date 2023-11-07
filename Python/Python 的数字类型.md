@@ -60,7 +60,7 @@ print('虚部', x.imag)
 
 ### 地板除（//）
 
-x 除以 y 的向下取整的结果。
+x 除以 y 的向下取整的结果。不管是真除法，还是地板除，都不能使用 0 为参数，0 为参数是没有意义的。
 
 例如：-3 // 2 = -2 
 
@@ -166,12 +166,14 @@ y = 0
 z = 0
 # 此循环用来判断输入的整数是否一致以及输入的数据是否为整数。
 while True:
-    while True:
         x = input("请输入一个整数：")
         z = input('请再次输入这个整数：')
         if z == x:
             break
-    if x.isdigit():
+        else:
+            print('您的两次输入不一致。')
+    z = str(abs(int(x)))
+    if z.isdigit():
         break
     else:
         print('您需要输入一个整数。')
@@ -186,4 +188,46 @@ while y < x:
         print("正面\n")
     else:
         print("反面\n")
+```
+
+### 只使用 int() 函数完成四舍五入的操作
+
+思路：因为 int() 函数是直接舍去小数，不管是 0.4 还是 0.5 都会直接被舍去，所以可以直接给小数加上 0.5 来达到四舍五入的效果。
+
+### 输入一个整数，然后输出比这个数到 0 之内的所有偶数的和
+
+```Python
+i = 0
+x = ''
+z = ''
+
+while True:
+    while True:
+        x = input("请输入一个整数：")
+        z = input('请再次输入这个整数：')
+        if z == x:
+            break
+        else:
+            print('您的两次输入不一致。')
+    z = str(abs(int(x)))
+    if z.isdigit():
+        break
+    else:
+        print('您需要输入一个整数。')
+
+x = int(x)
+z = 0
+
+if x >= 0:
+    while i <= x:
+        if i % 2 == 0:
+            z = i + z
+        i = i + 1
+else:
+    while i >= x:
+        if i % 2 == 0:
+            z = i + z
+        i = i - 1
+
+print(z)
 ```
