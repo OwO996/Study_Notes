@@ -16,9 +16,7 @@ Bool 类型，其实就是特殊的整数类型。
 > 解为0，因为0是整数类型，而None是一个特殊的值。None也不是布尔类
 > 型，而是NoneType。
 >
-> 引用自 [刘江的博客教程](https://www.liujiangblog.com/course/python/18){:target="_blank"}。
-
-[刘江的博客教程](https://www.liujiangblog.com/course/python/18){:target="_blank"}。
+> 引用自 [刘江的博客教程](https://www.liujiangblog.com/course/python/18 {:target="_blank"})。
 
 ## 会被返回 False 的情况
 
