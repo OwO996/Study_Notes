@@ -18,6 +18,8 @@ Bool 类型，其实就是特殊的整数类型。
 >
 > 引用自 [刘江的博客教程](https://www.liujiangblog.com/course/python/18){:target="_blank"}。
 
+[刘江的博客教程](https://www.liujiangblog.com/course/python/18){:target="_blank"}。
+
 ## 会被返回 False 的情况
 
 1. 数字只有等值于 0 的结果才会被 bool() 返回 False；
