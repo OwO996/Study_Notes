@@ -1,1 +1,1 @@
-vless://692d0447-817f-4f60-beec-d19d8165650c@bestcf.onecf.eu.org:443?encryption=none&security=tls&sni=edtunnel-b9r.pages.dev&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&allowInsecure=1&type=ws&host=edtunnel-b9r.pages.dev&path=%2F#owo
+vless://692d0447-817f-4f60-beec-d19d8165650c@time.is:443?encryption=none&security=tls&sni=edtunnel-b9r.pages.dev&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&allowInsecure=1&type=ws&host=edtunnel-b9r.pages.dev&path=%2F#owo
